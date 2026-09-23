@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Parent docstore (local persistence, not needed in repo)
+parent_docstore/
+
+# Reports / source PDFs
+reports/
+
+# OS/editor junk
+.DS_Store
+.vscode/
+EOF
